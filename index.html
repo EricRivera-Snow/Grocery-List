@@ -2,42 +2,61 @@
 <html>
   <head>
     <title>Grocery List</title>
+    <link rel="stylesheet" href="CSS/style.css" />
+    <style>
+        h1{
+            text-decoration-line: underline;
+        }
+    </style>
   </head>
   <body>
-    <h1>My Very Organized Grocery List</h1>
+    <header><h1>My Very Organized Grocery List</h1></header>
+    <h2>Pantry Items</h2>
     <section>
-      <h2>Pantry Items</h2>
-      <h3>Canned</h3>
-      <ul>
-        <li>Corn</li>
-        <li>Tuna</li>
-        <li>Green Beans</li>
-        <li>Beans</li>
-      </ul>
-      <h3>Dry Goods</h3>
-      <ul>
-        <li>Rice</li>
-        <li>Lentils</li>
-        <li>Oats</li>
-        <li>Pancake Mix</li>
-      </ul>
+      <div class="list">
+        <h3>Canned</h3>
+        <ul>
+          <li>Corn</li>
+          <li>Tuna</li>
+          <li>Green Beans</li>
+          <li>Beans</li>
+        </ul>
+      </div>
+      <div class="list">
+        <h3>Dry Goods</h3>
+        <ul>
+          <li>Rice</li>
+          <li>Lentils</li>
+          <li>Oats</li>
+          <li style="color: red;">Pancake Mix</li>
+        </ul>
+      </div>
+      <img src="./img/Pantry.jpg" alt="Pantry Photo" />
     </section>
+    <h2>Freezer Items</h2>
     <section>
-      <h2>Freezer Items</h2>
-      <h3>Veggies</h3>
-      <ul>
-        <li>Broccoli</li>
-        <li>Carrots</li>
-        <li>Cauliflower</li>
-        <li>Bell Peppers</li>
-      </ul>
-      <h3>Snacks</h3>
-      <ul>
-        <li>Chicken Nuggets</li>
-        <li>Hot Pockets</li>
-        <li>Fries</li>
-        <li>Tator Tots</li>
-      </ul>
+      <div class="list">
+        <h3>Veggies</h3>
+        <ol>
+          <li>Broccoli</li>
+          <li>Carrots</li>
+          <li>Cauliflower</li>
+          <li>Bell Peppers</li>
+        </ol>
+      </div>
+      <div class="list">
+        <h3>Snacks</h3>
+        <ol>
+          <li>Chicken Nuggets</li>
+          <li>Hot Pockets</li>
+          <li>Fries</li>
+          <li>Tator Tots</li>
+        </ol>
+      </div>
+      <img src="./img/Freezer.jpg" alt="Freezer Photo" />
     </section>
+    <footer>
+      Double check this list before shopping to make sure it is complete.
+    </footer>
   </body>
 </html>
